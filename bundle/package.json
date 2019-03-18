@@ -1,0 +1,16 @@
+{
+  "name": "bundle",
+  "version": "1.0.0",
+  "description": "",
+  "module": "lib/index.esm.js",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "renmaomin <renmaomin@126.com> (https://github.com/renmm)",
+  "license": "MIT",
+  "dependencies": {
+    "@acbd/button": "^2.0.0",
+    "@acbd/icon": "^2.0.0"
+  }
+}
