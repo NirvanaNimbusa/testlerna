@@ -1,6 +1,6 @@
 {
   "name": "bundle",
-  "version": "1.0.0",
+  "version": "2.0.1-alpha.0",
   "description": "",
   "module": "lib/index.esm.js",
   "main": "lib/index.js",
@@ -10,7 +10,7 @@
   "author": "renmaomin <renmaomin@126.com> (https://github.com/renmm)",
   "license": "MIT",
   "dependencies": {
-    "@acbd/button": "^2.0.0",
-    "@acbd/icon": "^2.0.0"
+    "@acbd/button": "^2.0.1-alpha.0",
+    "@acbd/icon": "^2.0.1-alpha.0"
   }
 }
