@@ -11,15 +11,12 @@
     "lerna": "lerna",
     "release": "lerna publish",
     "changlog": "lerna-changelog",
-    "lint": "eslint",
+    "lint": "eslint packages/**/src/*.js",
     "precommit": "lint-staged"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run lint"
-    }
+  "lint-staged": {
+    "packages/**/src/*.js": "eslint"
   },
-  "lint-staged": ["eslint"],
   "changelog": {
     "repo": "remm/testlerna",
     "labels": {
