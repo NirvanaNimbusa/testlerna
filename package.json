@@ -11,7 +11,14 @@
     "lerna": "lerna",
     "release": "lerna publish",
     "changlog": "lerna-changelog",
-    "precommit": "lint-staged"
+    "precommit": "lint-staged",
+    "lint": "eslint"
+  },
+  "lint-staged": {
+    "linters": {
+      "packages/**/*.js": ["npm run lint", "git add"]
+    },
+    "ignore": ["**/lib/*.js"]
   },
   "changelog": {
     "repo": "remm/testlerna",
