@@ -20,7 +20,7 @@
   },
   "lint-staged": {
     "linters": {
-      "packages/**/*.js": ["npm run lint", "git add"]
+      "packages/**/*.js": ["eslint  --fix", "git add"]
     },
     "ignore": ["**/lib/*.js"]
   },
