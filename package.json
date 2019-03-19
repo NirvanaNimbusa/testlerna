@@ -12,7 +12,7 @@
     "release": "lerna publish",
     "changlog": "lerna-changelog",
     "lint": "eslint",
-    "precommit": "eslint"
+    "precommit": "lint-staged"
   },
   "husky": {
     "hooks": {
@@ -20,10 +20,7 @@
     }
   },
   "lint-staged": {
-    "packages/**/*.js": [
-      "eslint --fix",
-      "git add"
-    ]
+    "packages/**/*.js": "eslint"
   },
   "changelog": {
     "repo": "remm/testlerna",
