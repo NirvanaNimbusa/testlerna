@@ -11,7 +11,8 @@
     "lerna": "lerna",
     "release": "lerna publish",
     "changlog": "lerna-changelog",
-    "lint": "eslint"
+    "lint": "eslint",
+    "precommit": "lint-staged"
   },
   "husky": {
     "hooks": {
