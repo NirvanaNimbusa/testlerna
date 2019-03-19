@@ -9,7 +9,16 @@
     "build": "rollup -c",
     "watch": "rollup -cw",
     "lerna": "lerna",
-    "release": "lerna publish"
+    "release": "lerna publish",
+    "changlog": "lerna-changelog"
+  },
+  "changelog": {
+    "repo": "remm/testlerna",
+    "labels": {
+      "feature": "New Feature",
+      "bug": "Bug Fix",
+      "docs": "Update Docs"
+    }
   },
   "devDependencies": {
     "@babel/cli": "^7.1.2",
@@ -55,6 +64,7 @@
     "jest-spec-reporter": "^1.0.3",
     "json-loader": "^0.5.7",
     "lerna": "^3.13.1",
+    "lerna-changelog": "^0.8.2",
     "marked": "^0.5.2",
     "mini-css-extract-plugin": "^0.4.4",
     "minimist": "^1.2.0",

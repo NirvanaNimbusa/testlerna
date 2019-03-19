@@ -25,5 +25,6 @@
     "@acbd/shared": "^2.0.1-alpha.0",
     "classnames": "^2.2.6",
     "prop-types": "^15.6.2"
-  }
+  },
+  "gitHead": "edc809adafc4d087c4f50350aa7c2ff655dda65f"
 }

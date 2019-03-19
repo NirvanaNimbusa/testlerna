@@ -23,5 +23,6 @@
   "bugs": {
     "url": "https://github.com/renmm/pile/issues"
   },
-  "homepage": "https://github.com/renmm/pile#readme"
+  "homepage": "https://github.com/renmm/pile#readme",
+  "gitHead": "edc809adafc4d087c4f50350aa7c2ff655dda65f"
 }
