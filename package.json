@@ -20,10 +20,10 @@
     }
   },
   "lint-staged": {
-    "linters": {
-      "packages/**/*.js": ["eslint  --fix", "git add"]
-    },
-    "ignore": ["**/lib/*.js"]
+    "*.js": [
+      "eslint --fix",
+      "git add"
+    ]
   },
   "changelog": {
     "repo": "remm/testlerna",
