@@ -20,7 +20,7 @@
     }
   },
   "lint-staged": {
-    "packages/**/*.js": "eslint"
+    "packages/**/src/**/*.js": "eslint"
   },
   "changelog": {
     "repo": "remm/testlerna",
